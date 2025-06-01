@@ -1,0 +1,6 @@
+uploads/
+index/
+*.pdf
+*.pt
+*.bin
+*.ckpt 
