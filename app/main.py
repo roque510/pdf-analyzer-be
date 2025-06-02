@@ -11,7 +11,7 @@ app.include_router(pdf.router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # or ["*"] for all origins (not recommended for production)
+    allow_origins=["http://localhost:3000","https://pdf-analyzer-sage.vercel.app"],  # or ["*"] for all origins (not recommended for production)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
