@@ -1,4 +1,13 @@
 venv/
+.venv/
+venv-vercel/
 __pycache__/
 index/
 .env
+uploads/
+index/
+venv/
+*.pdf
+*.pt
+*.bin
+*.ckpt 
